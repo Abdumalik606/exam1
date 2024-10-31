@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.section1 {
+    background-image: url('./image\ 4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-parent a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.header-parent a:hover {
+    color: red;;
+}
+
+.header-parent button {
+    color: red;
+    border: 1px solid red ;
+}
+
+.section1-parent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.qizil{
+    color: white;
+    background-color: red;
+}
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section2-parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.section2-right h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.section2-right{
+    margin-top: 20px;
+    gap: 30px;
+    font-size:30px; 
+    margin-bottom: 20px;
+}
+
+.section3 {
+    padding: 50px 0;
+    background-color: aqua;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 0;
+}
+.section3-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.volekum{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 30px;
+    
+}
+
+.contact-parent {
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+
